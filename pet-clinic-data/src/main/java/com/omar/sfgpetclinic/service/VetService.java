@@ -7,6 +7,6 @@ import java.util.Set;
 public interface VetService {
 
     Vet findById(Long id);
-    Vet save(Vet vet);
+    Vet save(Vet vets);
     Set<Vet> findAll();
 }
